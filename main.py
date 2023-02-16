@@ -15,7 +15,7 @@ gc = gspread.authorize(credentials)
 sh = gc.open('Quiz Questions')
 worksheet = sh.sheet1
 
-# Get the questions and options from the Google Sheet
+# Get the questions and options from the Google Sheet.The QA is expected to be in QAAA... order.
 questions = worksheet.col_values(1)
 options = [worksheet.row_values(i)[1:] for i in range(1, worksheet.row_count + 1)]
 

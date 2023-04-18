@@ -8,7 +8,7 @@ from kivy.uix.boxlayout import BoxLayout
 
 # Set up the Google Sheet API credentials
 scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
-credentials = ServiceAccountCredentials.from_json_keyfile_name('path/to/credentials.json', scope)
+credentials = ServiceAccountCredentials.from_json_keyfile_name('credentials.json', scope) # change here
 
 # Connect to the Google Sheet
 gc = gspread.authorize(credentials)

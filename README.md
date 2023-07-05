@@ -9,3 +9,6 @@ This project consists of two modules, one for the questions contribution and ano
 In future, the project will use AI tools to read a given document and frame questions by itself.
 
 The project predicts thoughtful answers and guesses, thereby providing the approximate skill of the candidate
+
+
+this can replace the traditional interview setup 

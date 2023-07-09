@@ -11,4 +11,4 @@ In future, the project will use AI tools to read a given document and frame ques
 The project predicts thoughtful answers and guesses, thereby providing the approximate skill of the candidate
 
 
-this can replace the traditional interview setup 
+this can replace the traditional interview setup and reduces the interview process cost for both the candidate and the organization

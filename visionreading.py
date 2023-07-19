@@ -7,7 +7,6 @@ face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 cap = cv2.VideoCapture(0)
 
 while True:
-    # Read a frame from the camera
     ret, frame = cap.read()
 
     # Convert the frame to grayscale
